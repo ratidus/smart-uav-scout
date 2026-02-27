@@ -1,0 +1,21 @@
+# visdrone.yaml
+path: D:/blowjob/smart-uav-scout/datasets/VisDrone  # Шлях відносно місця запуску команди
+train: VisDrone2019-DET-train/images
+val: VisDrone2019-DET-val/images
+
+# Кількість класів
+nc: 10
+
+# Імена класів (УВАГА: Порядок відповідає нашому class_mapping!)
+# 0 був VisDrone-1 (Pedestrian), 1 був VisDrone-2 (People) і т.д.
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor

@@ -1,0 +1,32 @@
+# --- Python Environment ---
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# --- Build Artifacts (КРИТИЧНО ДЛЯ C++) ---
+build/
+cpp_inference/build/
+cpp_inference/out/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.cmake
+CMakeCache.txt
+
+# --- Data & Logs ---
+datasets/
+runs/
+
+# --- Heavy Files & Models ---
+*.mp4
+*.avi
+*.onnx
+*.pt
+*.engine

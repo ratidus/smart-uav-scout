@@ -19,6 +19,7 @@ cpp_inference/out/
 *.vcxproj.filters
 *.cmake
 CMakeCache.txt
+third_party/
 
 # --- Data & Logs ---
 datasets/
